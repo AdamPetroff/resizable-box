@@ -80,7 +80,12 @@ function App() {
         </div>
 
         <div className="bg-slate-200 mt-4">
-          <ResizableBox duration={1} contentId={boxSwitch ? "big" : "small"}>
+          <ResizableBox
+            duration={1}
+            contentId={boxSwitch ? "big" : "small"}
+            animation="crossFade"
+            className="mb-4"
+          >
             {boxSwitch ? <BigBox /> : <SmallBox />}
           </ResizableBox>
         </div>
