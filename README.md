@@ -1,6 +1,6 @@
 # React Resizable Box
 
-This is a simple React component that will resize it's own size dynamically based on it's content.
+This is a React component that will resize it's own size dynamically based on it's content. There is also an option to animate the change of the content itself.
 
 ## Installation
 
